@@ -2,8 +2,6 @@
 
 A modern, full-stack web application for flight booking and airline management. Built with Next.js, TypeScript, and Tailwind CSS for the frontend, and Express/Node.js for the backend. SkyRoutes offers a seamless experience for customers to search, book, and manage flights.
 
-![SkyRoutes Banner](https://i.imgur.com/placeholder.png)
-
 ## 🏗️ Project Structure
 
 This project has been organized into two main parts:
