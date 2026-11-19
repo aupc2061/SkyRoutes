@@ -2,7 +2,7 @@
 
 A modern, full-stack web application for flight booking and airline management. Built with Next.js, TypeScript, and Tailwind CSS for the frontend, and Express/Node.js for the backend. SkyRoutes offers a seamless experience for customers to search, book, and manage flights.
 
-## 🏗️ Project Structure
+## Project Structure
 
 This project has been organized into two main parts:
 
@@ -29,7 +29,7 @@ flight-booking/
            
 ```
 
-## 🚀 Features
+## Features
 
 ### Flight Management
 - **Flight Search**: Advanced search functionality with filters for dates, destinations, and prices
@@ -48,7 +48,7 @@ flight-booking/
 - **Flight Reviews & Ratings**: Read and submit reviews for flights
 - **Travel History**: View past and upcoming flight details
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: Next.js 15.2.3 with TypeScript
@@ -64,7 +64,7 @@ flight-booking/
 - **API Integration**: Amadeus Flight API
 - **Security**: bcrypt for password hashing
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -122,7 +122,7 @@ npm run dev
 
 The application will be available at `http://localhost:9002`.
 
-## 🧪 Testing
+## Testing
 
 The backend includes test scripts to verify API functionality:
 
@@ -132,7 +132,7 @@ node test.js         # Run all tests
 node testReviews.js  # Test specifically the reviews endpoints
 ```
 
-## 🔄 API Reference
+## API Reference
 
 ### Authentication
 - `POST /api/auth/register` - Register a new user
@@ -155,13 +155,13 @@ node testReviews.js  # Test specifically the reviews endpoints
 - `GET /api/user/profile` - Get user profile
 - `PUT /api/user/profile` - Update user profile
 
-## ✨ Additional Features
+## Additional Features
 
 ### AI Travel Assistant
 - **Smart Recommendations**: AI-powered suggestions for flights based on user preferences
 - **24/7 Support**: Automated assistance for common queries and issues
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 The application follows a modern architecture with separation of concerns:
 
@@ -170,7 +170,7 @@ The application follows a modern architecture with separation of concerns:
 3. **Data Layer**: MongoDB database with Mongoose schemas
 4. **External Services Layer**: Integration with Amadeus API for flight data
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 1. User registers or logs in through the frontend
 2. Backend validates credentials and issues a JWT token
